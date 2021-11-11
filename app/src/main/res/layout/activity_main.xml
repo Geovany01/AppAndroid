@@ -32,7 +32,7 @@
         android:id="@+id/btnBuscar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#3F51B5"
+        android:background="#FF689D"
         android:text="BUSCAR PRODUCTO"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
@@ -51,7 +51,15 @@
         android:text="PRODUCTO"
         android:textSize="24sp" />
 
-    <TextView
+        <TextView
+            android:id="@+id/tvMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MARCA"
+            android:textSize="24sp" />
+
+            <TextView
         android:id="@+id/tvDescripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,16 +67,34 @@
         android:text="DESCRIPCIÓN"
         android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/tvPrecio"
+        <TextView
+            android:id="@+id/tvPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="PRECIO"
+            android:textColor="#3F51B5"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+        android:id="@+id/tvExistencia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
         android:gravity="center"
-        android:text="PRECIO"
-        android:textColor="#3F51B5"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        android:text="EXISTENCIA"
+        android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvFechaIngreso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="INGRESO"
+            android:textSize="24sp" />
+
+
 
     </LinearLayout>
 
